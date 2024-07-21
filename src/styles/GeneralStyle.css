@@ -1,0 +1,26 @@
+@font-face {
+       font-family: "youtubeBld";
+       src: url(../../fonts/YouTubeSansDarkBold.otf);
+}
+@font-face {
+       font-family: "youtubeDsd";
+       src: url(../../fonts/YouTubeSansDarkSemibold.otf);
+}
+
+html {
+       user-select: none;
+}
+body {
+       margin: 0;
+       padding: 0;
+       font-family: "youtubeDsd";
+}
+.hide {
+       display: none;
+}
+.show {
+       display: block;
+}
+.showFlx {
+       display: flex;
+}

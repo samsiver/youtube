@@ -1,0 +1,30 @@
+#content {
+       height: 672px;
+       display: flex;
+       gap: 20px;
+       position: relative;
+}
+#content > #main {
+       border: 1px solid #ccc;
+       width: 226.51px;
+       overflow-y: auto;
+}
+#content > #listBar {
+       border: 1px solid #ccc;
+       height: 50px;
+       width: 83.3%;
+       position: absolute;
+       transform: translate(248px , 5px);
+       overflow-x: auto;
+}
+#content > #center {
+       border: 1px solid #ccc;
+       width: 83.3%;
+       height: 90%;
+       transform: translateY(60px);
+       overflow-y: auto;
+}
+#content > .itemContent {
+       scrollbar-width: thin;
+       scrollbar-color: #cccccc00 #cccccc00;
+}
