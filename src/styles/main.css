@@ -1,0 +1,8 @@
+#content > #main > .listVideos {
+       border: 1px solid #ccc;
+       width: 90%;
+       height: 120px;
+       margin: 10px auto;
+       border-radius: 5px;
+}
+#content > #main > .listVideos

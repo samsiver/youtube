@@ -19,6 +19,7 @@
        position: absolute;
        transform: translate(248px , 5px);
        overflow-x: auto;
+       border-radius: 5px;
 }
 #content > #center {
        border-radius: 5px;
