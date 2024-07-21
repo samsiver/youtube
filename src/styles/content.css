@@ -5,9 +5,12 @@
        position: relative;
 }
 #content > #main {
-       border: 1px solid #ccc;
        width: 226.51px;
+       height: 98%;
+       margin-top: 6px;
        overflow-y: auto;
+       background-color: #EDEDED;
+       border-radius: 5px;
 }
 #content > #listBar {
        border: 1px solid #ccc;
@@ -18,11 +21,12 @@
        overflow-x: auto;
 }
 #content > #center {
-       border: 1px solid #ccc;
+       border-radius: 5px;
        width: 83.3%;
        height: 90%;
        transform: translateY(60px);
        overflow-y: auto;
+       background-color: #EDEDED;
 }
 #content > .itemContent {
        scrollbar-width: thin;
