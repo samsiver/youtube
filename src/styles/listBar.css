@@ -1,0 +1,23 @@
+#content > #listBar {
+       display: flex;
+       gap: 5px;
+}
+#content > #listBar > input {
+       display: none;
+}
+#content > #listBar > label {
+       border: 1px solid #ccc;
+       display: block;
+       padding: 5px 10px;
+       height: 50%;
+       margin-top: 7px;
+       border-radius: 5px;
+       margin-left: 5px;
+       cursor: pointer;
+       transition: 0.2s;
+}
+#content > #listBar > input:checked + label {
+       background-color: #333;
+       color: #fff;
+       transition: 0.2s;
+}

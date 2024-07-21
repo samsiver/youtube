@@ -8,6 +8,7 @@
        <link rel="stylesheet" href="../styles/header.css">
        <link rel="stylesheet" href="../styles/content.css">
        <link rel="stylesheet" href="../styles/main.css">
+       <link rel="stylesheet" href="../styles/listBar.css">
 </head>
 <body>
 
@@ -31,11 +32,57 @@
               <div id="main" class="itemContent">
                      <div class="listVideos">
 
-                            <input type="radio">
+                            <input type="radio" id="option1" name="option" checked>
+                            <label for="option1" class="homePaged">Home</label>
+
+                            <input type="radio" id="option2" name="option">
+                            <label for="option2" class="shortsPaged">Shorts</label>
+
+                            <input type="radio" id="option3" name="option">
+                            <label for="option3" class="subscriptionsPg">Subscriptions</label>
+                            
                      </div>
-                     <div class="listChanels"></div>
+                     <div class="listChanels">
+
+                            <input type="radio" id="option1_1" name="option">
+                            <label for="option1_1" class="LibraryPage">Library</label>
+
+                            <input type="radio" id="option1_2" name="option">
+                            <label for="option1_2" class="StoryPage">Story</label>
+
+                            <input type="radio" id="option1_3" name="option">
+                            <label for="option1_3" class="YourVideosPg">Your videos</label>
+
+                            <input type="radio" id="option1_4" name="option">
+                            <label for="option1_4" class="WatchLaterPg">Watch Later</label>
+
+                            <input type="radio" id="option1_5" name="option">
+                            <label for="option1_5" class="LikedPg">Liked</label>
+
+                     </div>
+
+                     <div id="Subscribers">
+                            <div class="sub">
+                                   <img src="../../img/photos/boy2.jpg" alt="">
+                                   <span class="nameSub">mehrshad</span>
+                            </div>
+                     </div>
+
+                     <div id="tagNumSub">Show <span id="numSuber">1</span>more cha...</div>
               </div>
-              <div id="listBar" class="itemContent"></div>
+
+              <div id="listBar" class="itemContent">
+
+                     <input type="radio" id="AllList" name="p1" checked>
+                     <label for="AllList" class="Alled">All</label>
+
+                     <input type="radio" id="shortsed" name="p1">
+                     <label for="shortsed" class="Alled">shorts</label>
+
+                     <input type="radio" id="videosed" name="p1">
+                     <label for="videosed" class="Alled">videos</label>
+
+              </div>
               <div id="center" class="itemContent"></div>
        </div>
        

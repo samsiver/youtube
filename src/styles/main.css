@@ -1,8 +1,135 @@
 #content > #main > .listVideos {
-       border: 1px solid #ccc;
        width: 90%;
-       height: 120px;
+       margin: 10px auto 30px;
+       border-radius: 5px;
+       overflow: hidden;
+       
+}
+#content > #main > .listVideos  > input {
+       display: none;
+}
+#content > #main > .listVideos  > label {
+       display: block;
+       height: 37px;
+       margin-bottom: 2px;
+       border-radius: 5px;
+       text-indent: 40px;
+       line-height: 33px;
+       transition: 0.2s;
+}
+#content > #main > .listVideos  > label:hover {
+       background-color: #57575715;
+       transition: 0.2s;
+       cursor: pointer;
+}
+#content > #main > .listVideos  > .homePaged {
+       background: url(../../img/nightModeIcons/home.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listVideos  > .shortsPaged {
+       background: url(../../img/nightModeIcons/shorts.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listVideos  > .subscriptionsPg {
+       background: url(../../img/nightModeIcons/subscribe.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listVideos  > input:checked + label {
+       background-color: #57575715;
+}
+
+/* listChanels */
+
+#content > #main > .listChanels {
+       width: 90%;
        margin: 10px auto;
        border-radius: 5px;
+       overflow: hidden;
 }
-#content > #main > .listVideos
+#content > #main > .listChanels  > input {
+       display: none;
+}
+#content > #main > .listChanels  > label {
+       display: block;
+       height: 37px;
+       margin-bottom: 2px;
+       border-radius: 5px;
+       text-indent: 40px;
+       line-height: 33px;
+       transition: 0.2s;
+}
+#content > #main > .listChanels  > label:hover {
+       background-color: #57575715;
+       transition: 0.2s;
+       cursor: pointer;
+}
+#content > #main > .listChanels  > .LibraryPage {
+       background: url(../../img/nightModeIcons/library.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listChanels  > .StoryPage {
+       background: url(../../img/nightModeIcons/history.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listChanels  > .YourVideosPg {
+       background: url(../../img/nightModeIcons/yourVideos.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listChanels  > .WatchLaterPg {
+       background: url(../../img/nightModeIcons/watchLater.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listChanels  > .LikedPg {
+       background: url(../../img/nightModeIcons/LikedVideos.svg) no-repeat 5%;
+       background-size: 8%;
+}
+#content > #main > .listChanels  > input:checked + label {
+       background-color: #57575715;
+}
+
+/* Subscribers */
+
+#content > #main > #Subscribers {
+       margin-top: 20px;
+       max-height: 250px;
+       overflow: hidden;
+       border-radius: 5px;
+}
+#content > #main > #Subscribers > .sub {
+       height: 50px;
+       width: 95%;
+       border-radius: 5px;
+       margin: 0 auto 5px;
+       display: flex;
+       gap: 10px;
+}
+#content > #main > #Subscribers > .sub > img {
+       border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       margin: 5px;
+}
+#content > #main > #Subscribers > .sub > span {
+       display: block;
+       line-height: 43px;
+}
+#content > #main > #Subscribers > .sub:hover {
+       cursor: pointer;
+       background-color: #57575715;
+}
+#content > #main > #tagNumSub {
+       width: 85%;
+       margin: auto;
+       text-align: center;
+       font-size: 14px;
+       padding: 5px;
+}
+#content > #main > #tagNumSub > span {
+       display: inline-block;
+       margin: 0 5px;
+}
+#content > #main > #tagNumSub:hover {
+       background-color: #57575715;
+       cursor: pointer;
+       border-radius: 5px;
+}
