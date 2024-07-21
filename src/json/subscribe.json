@@ -1,0 +1,12 @@
+var subs = [
+       {"id":1 , "name":"MrBeast" , "pic":["mrbeast.jpg"] , "banner":["bnrMrBeast.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":2 , "name":"marvel" , "pic":["marvel_logo.jpg"] , "banner":["marvel-studios.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":3 , "name":"DC" , "pic":["DC.jpg"] , "banner":["DCbanner.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":4 , "name":"musics" , "pic":["musiced.jpg"] , "banner":["msicBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":5 , "name":"XXXtenations" , "pic":["xxxtn.jpg"] , "banner":["xxtnBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":6 , "name":"lamborghini" , "pic":["lambo.jpg"] , "banner":["lamboBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":7 , "name":"ferrari" , "pic":["ferrariLogo.jpg"] , "banner":["ferrariBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":8 , "name":"BMW" , "pic":["bmwLogo.jpg"] , "banner":["bmwBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":9 , "name":"billieEilish" , "pic":["billi.jpg"] , "banner":["billiBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":10 , "name":"mckennaGrace" , "pic":["mckena.jpg"] , "banner":["mckennaBnr.jpg"] , "subs":45 , "numPost":120 , "gmail":"mrBeast21"}
+];
