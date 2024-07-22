@@ -1,0 +1,138 @@
+#content > #profiledBio {
+       background-color: #ffffff;
+       position: absolute;
+       top: 0;
+       right: 0;
+       z-index: 2000;
+       width: 1300px;
+       height: 100%;
+}
+#content > #profiledBio > .toped {
+       border-bottom: 1px solid #cccccc78;
+       height: 40%;
+       border-radius: 5px 5px 0 0;
+}
+#content > #profiledBio > .toped > .bner {
+       border: 1px solid #ccc;
+       height: 150px;
+       overflow: hidden;
+}
+#content > #profiledBio > .toped > .bner > img {
+       width: 100%;
+}
+#content > #profiledBio > .toped > .profeds {
+       width: 90%;
+       height: 90px;
+       margin: 12px auto;
+       border-radius: 5px;
+       display: flex;
+       gap: 20px;
+       position: relative;
+}
+#content > #profiledBio > .toped > .profeds > .photoProf {
+       border: 1px solid #ccc;
+       height: 100%;
+       width: 90px;
+       border-radius: 50%;
+       overflow: hidden;
+}
+#content > #profiledBio > .toped > .profeds > .photoProf > img {
+       height: 100%;
+}
+#content > #profiledBio > .toped > .profeds > #nameed {
+       font-size: 25px;
+       line-height: 60px;
+}
+#content > #profiledBio > .toped > .profeds > #nameed > #userNamed {
+       display: block;
+       font-size: 16px;
+       color: #979797;
+       line-height: 20px;
+}
+#content > #profiledBio > .toped > .profeds > .subAndPosted > span {
+       display: block;
+       line-height: 60px;
+}
+#content > #profiledBio > .toped > .profeds > .subAndPosted > .numbrPost {
+       line-height: 5px;
+}
+#content > #profiledBio > .toped > .profeds > #subscribeClicked {
+       height: 30%;
+       padding: 5px 20px;
+       border-radius: 40px;
+       background-color: #e1e1e1;
+       margin-top: 10px;
+       position: absolute;
+       right: 0;
+       cursor: pointer;
+}
+#content > #profiledBio > .bttm {
+       border: 1px solid #ccc;
+       height: 58%;
+}
+#content > #profiledBio > .bttm > #moveIs {
+       border: 1px solid #ccc;
+       margin: auto;
+       width: 1100px;
+       height: 100%;
+       overflow-y: auto;
+       scrollbar-width: thin;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 {
+       border: 1px solid #dddddd;
+       width: 300px;
+       height: 250px;
+       overflow: hidden;
+       border-radius: 10px;
+       margin: 8px;
+       position: relative;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > .imgTitleBck2 {
+              border: 1px solid #ccc;
+       position: absolute;
+       width: 100%;
+       height: 67%;
+       border-radius: 10px;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > .imgTitleBck2 > img {
+       height: 100%;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > video {
+              height: 68%;
+       border-radius: 10px;
+       transition: 0.2s;
+       position: absolute;
+       top: 0;
+       left: 0;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > video:hover {
+              cursor: pointer;
+       filter: brightness(95%);
+       transition: 0.2s;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > .titles2 {
+              height: 75px;
+       display: flex;
+       gap: 10px;
+       /* flex-flow: row wrap; */
+       position: absolute;
+       bottom: 0;
+       left: 0;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > .titles2 > img {
+              border-radius: 50%;
+       width: 40px;
+       height: 40px;
+       margin-top: 10px;
+       margin-left: 5px;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > .titles2 > .nameTitle2 {
+       display: block;
+       border-radius: 10px;
+}
+#content > #profiledBio > .bttm > #moveIs > .videoPlayList2 > .titles2 > .userName2 {
+              color: #b4b4b4;
+       padding: 20px;
+       position: absolute;
+       margin-left: 35px;
+}
