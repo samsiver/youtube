@@ -13,7 +13,6 @@
        border-radius: 5px;
 }
 #content > #listBar {
-       border: 1px solid #ccc;
        height: 50px;
        width: 83.3%;
        position: absolute;

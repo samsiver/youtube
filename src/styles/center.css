@@ -8,7 +8,7 @@
        height: 250px;
        overflow: hidden;
        border-radius: 10px;
-       margin: 5px;
+       margin: 8px;
        position: relative;
 }
 #content > #center > #videosHomePg > .videoPlayList > .imgTitleBck {
@@ -28,6 +28,9 @@
        height: 68%;
        border-radius: 10px;
        transition: 0.2s;
+       position: absolute;
+       top: 0;
+       left: 0;
 }
 #content > #center > #videosHomePg > .videoPlayList > video:hover {
        cursor: pointer;
@@ -38,7 +41,10 @@
        height: 75px;
        display: flex;
        gap: 10px;
-       flex-flow: row wrap;
+       /* flex-flow: row wrap; */
+       position: absolute;
+       bottom: 0;
+       left: 0;
 }
 #content > #center > #videosHomePg > .videoPlayList > .titles > img {
        border-radius: 50%;
@@ -49,11 +55,11 @@
 }
 #content > #center > #videosHomePg > .videoPlayList > .titles > .nameTitle {
        display: block;
-       width: 80%;
        border-radius: 10px;
 }
 #content > #center > #videosHomePg > .videoPlayList > .titles > .userName {
        color: #b4b4b4;
-       margin-top: -10px;
-       margin-left: 60px;
+       padding: 20px;
+       position: absolute;
+       margin-left: 35px;
 }
