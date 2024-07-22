@@ -40,7 +40,7 @@
 #header > .searchedBox {
        width: 646.23px;
        height: 45px;
-       transform: translateY(5px);
+       transform: translateY(3.5px);
        display: flex;
        gap: 10px;
 }

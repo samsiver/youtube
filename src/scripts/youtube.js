@@ -24,3 +24,18 @@ function fillGrid(evented){
        }
 }
 fillGrid(subs);
+
+var videosds = document.querySelectorAll(".vid");
+
+function playedPause(event){
+       event.onmousemove = function(){
+              event.play();
+       }
+       event.onmouseout = function(){
+              event.pause();
+       }
+}
+
+videosds.forEach(el =>
+       playedPause(el)
+);

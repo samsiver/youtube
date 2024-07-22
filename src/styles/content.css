@@ -27,6 +27,8 @@
        height: 90%;
        transform: translateY(60px);
        overflow-y: auto;
+       scrollbar-width: thin;
+       scrollbar-color: #ffffff #ccc;
        background-color: #EDEDED;
 }
 #content > .itemContent {
