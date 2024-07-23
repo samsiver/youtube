@@ -1,12 +1,12 @@
 var subs = [
-       {"id":1 , "name":"MrBeast" , "pic":["mrbeast.jpg"] , "banner":["bnrMrBeast.jpg"] , "videosIn":["ferrari1.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":2 , "name":"marvel" , "pic":["marvel_logo.jpg"] , "banner":["marvel-studios.jpg"] , "videosIn":["gojo.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":1 , "name":"MrBeast", "username":"mrbeast" , "pic":["mrbeast.jpg"] , "banner":["bnrMrBeast.jpg"] , "videosIn":["ferrari1.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":2 , "name":"marvel" , "pic":["marvel_logo.jpg"] , "banner":["marvel-studios.jpg"] , "videosIn":["gojo.mp4"] ,"subs":23 , "numPost":120 , "gmail":"mrBeast21"},
        {"id":3 , "name":"animeStudio" , "pic":["DC.jpg"] , "banner":["DCbanner.jpg"] , "videosIn":["gojo.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":4 , "name":"musics" , "pic":["musiced.jpg"] , "banner":["msicBnr.jpg"] , "videosIn":["billieEilish2.mp4","mckennagreace1.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":5 , "name":"XXXtenations" , "pic":["xxxtn.jpg"] , "banner":["xxtnBnr.jpg"] , "videosIn":["XXXTENTACION - Hope _ Lyrics.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":6 , "name":"lamborghini" , "pic":["lambo.jpg"] , "banner":["lamboBnr.jpg"] , "videosIn":["Lamborghini Revuelto.mp4","lambo2.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":7 , "name":"ferrari" , "pic":["ferrariLogo.jpg"] , "banner":["ferrariBnr.jpg"] , "videosIn":["ferrari1.mp4","ferrari2.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":8 , "name":"BMW" , "pic":["bmwLogo.jpg"] , "banner":["bmwBnr.jpg"] , "subs":45 , "videosIn":["bmw1.mp4","bmw2.mp4"] ,"numPost":120 , "gmail":"mrBeast21"},
-       {"id":9 , "name":"billieEilish" , "pic":["billi.jpg"] , "banner":["billiBnr.jpg"] , "videosIn":["billieEilish1.mp4","billieEilish2.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"},
-       {"id":10 , "name":"mckennaGrace" , "pic":["mckena.jpg"] , "banner":["mckennaBnr.jpg"] , "videosIn":["mckennaGreace2.mp4" , "mckennagreace1.mp4"] ,"subs":45 , "numPost":120 , "gmail":"mrBeast21"}
+       {"id":4 , "name":"musics" , "pic":["musiced.jpg"] , "banner":["msicBnr.jpg"] , "videosIn":["billieEilish2.mp4","mckennagreace1.mp4"] ,"subs":54 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":5 , "name":"XXXtenations" , "pic":["xxxtn.jpg"] , "banner":["xxtnBnr.jpg"] , "videosIn":["XXXTENTACION - Hope _ Lyrics.mp4"] ,"subs":13 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":6 , "name":"lamborghini" , "pic":["lamboLogo.jpg"] , "banner":["lamboBnr.jpg"] , "videosIn":["Lamborghini Revuelto.mp4","lambo2.mp4"] ,"subs":90 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":7 , "name":"ferrari" , "pic":["ferrariLogo.jpg"] , "banner":["ferrariBnr.jpg"] , "videosIn":["ferrari1.mp4","ferrari2.mp4"] ,"subs":101 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":8 , "name":"BMW" , "pic":["bmwLogo.jpg"] , "banner":["bmwBnr.jpg"] , "subs":2 , "videosIn":["bmw1.mp4","bmw2.mp4"] ,"numPost":120 , "gmail":"mrBeast21"},
+       {"id":9 , "name":"billieEilish" , "pic":["billi.jpg"] , "banner":["billiBnr.jpg"] , "videosIn":["billieEilish1.mp4","billieEilish2.mp4"] ,"subs":3 , "numPost":120 , "gmail":"mrBeast21"},
+       {"id":10 , "name":"mckennaGrace" , "pic":["mckena.jpg"] , "banner":["mckennaBnr.jpg"] , "videosIn":["mckennaGreace2.mp4" , "mckennagreace1.mp4"] ,"subs":5 , "numPost":120 , "gmail":"mrBeast21"}
 ];

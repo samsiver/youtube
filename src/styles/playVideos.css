@@ -1,0 +1,47 @@
+#content > #playVideos {
+       background-color: #ececec;
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       z-index: 1001;
+
+       display: flex;
+       gap: 5px;
+       justify-content: center;
+}
+#content > #playVideos > #clos {
+       width: 30px;
+       height: 30px;
+       position: absolute;
+       right: 10px;
+       top: 10px;
+       border-radius: 5px;
+
+       background: url(../../img/nightModeIcons/closeNt.svg) no-repeat center;
+       background-size: 90%;
+}
+#content > #playVideos > #clos:hover {
+       background-color: #b7b7b72a;
+       cursor: pointer;
+}
+
+#content > #playVideos > .playVide {
+       border: 1px solid #ccc;
+       width: 65%;
+       border-radius: 5px;
+       overflow-y: auto;
+}
+#content > #playVideos > .playVide > #theVideo {
+       border: 1px solid #ccc;
+       height: 500px;
+       border-radius: 5px 5px 0 0;
+       overflow: hidden;
+}
+#content > #playVideos > .playVide > #theVideo > video {
+       height: 100%;
+}
+#content > #playVideos > .listVide {
+       border: 1px solid #ccc;
+       width: 25%;
+       border-radius: 5px;
+}
