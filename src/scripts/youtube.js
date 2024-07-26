@@ -233,7 +233,8 @@ clickPlayAndPaus.onclick = function(){
               clickPlayAndPaus.className = "";
        }
 }
-// vid3.play()
+
+// videoTime
 
 vid3.ontimeupdate = function(){
        const durations = vid3.duration;
