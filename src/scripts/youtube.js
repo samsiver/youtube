@@ -215,4 +215,38 @@ tagNumSub.onclick = function(){
        }
 }
 
+var playMovies = false;
+vid3.onclick = function(){
+       clickPlayAndPaus.style.display = "";
+}
+
+clickPlayAndPaus.onclick = function(){
+       if(playMovies == false){
+              playMovies = true;
+              vid3.play();
+              clickPlayAndPaus.className = "pauseds";
+              setTimeout(()=>{clickPlayAndPaus.style.display = "none"},800);
+       }
+       else {
+              playMovies = false;
+              vid3.pause(); 
+              clickPlayAndPaus.className = "";
+       }
+}
 // vid3.play()
+
+vid3.ontimeupdate = function(){
+       const durations = vid3.duration;
+       const currentTimes = vid3.currentTime;
+       const newTimeIs = (currentTimes / durations) * 100;
+       progressbar.style.width = newTimeIs + "%";
+}
+
+progresscontainer.onclick = function(e){
+       const rect = progresscontainer.getBoundingClientRect();
+       const clicked = e.clientX - rect.left;
+       const widthDvTime = rect.width;
+       const mohasebeTime = clicked / widthDvTime;
+       const newTime = mohasebeTime * vid3.duration;
+       vid3.currentTime = newTime;
+}

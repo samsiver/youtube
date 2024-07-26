@@ -36,12 +36,103 @@
        height: 500px;
        border-radius: 5px 5px 0 0;
        overflow: hidden;
+       position: relative;
 }
 #content > #playVideos > .playVide > #theVideo > video {
        height: 100%;
 }
+#content > #playVideos > .playVide > #theVideo > video::-webkit-media-controls-volume-slider {
+       background-color: red;
+       width: 50%;
+}
+#content > #playVideos > .playVide > #theVideo > video::-webkit-media-controls-panel {
+       background-color: rgba(75, 75, 75, 0.377);
+}
+#content > #playVideos > .playVide > #theVideo > #clickPlayAndPaus {
+       display: block;
+       width: 50px;
+       height: 50px;
+       position: absolute;
+       top: 45%;
+       left: 460px;
+
+       background: url(../../img/nightModeIcons/play.png) no-repeat center;
+       background-size: 100%;
+       transition: 0.2s;
+}
+#content > #playVideos > .playVide > #theVideo > #clickPlayAndPaus.pauseds {
+       background: url(../../img/nightModeIcons/pause.png) no-repeat center;
+       background-size: 100%;
+       transition: 0.2s;
+}
+#content > #playVideos > .playVide > #theVideo > #clickPlayAndPaus:hover {
+       background-color: #b7b7b72a;
+       transition: 0.2s;
+       border-radius: 5px;
+       cursor: pointer;
+}
+
+
 #content > #playVideos > .listVide {
-       border: 1px solid #ccc;
        width: 25%;
        border-radius: 5px;
+       overflow-y: auto;
+       scrollbar-width: thin;
+       scrollbar-color: #ccc #ededed;
 }
+#content > #playVideos > .listVide > .itemVideoSuggested {
+       border-radius: 5px;
+       height: 110px;
+       display: flex;
+       gap: 10px;
+       cursor: pointer;
+       transition: 0.2s;
+       margin-bottom: 10px;
+}
+#content > #playVideos > .listVide > .itemVideoSuggested:hover {
+       background-color: #cccccc56;
+       transition: 0.2s;
+}
+#content > #playVideos > .listVide > .itemVideoSuggested > video {
+       border: 1px solid #ccc;
+       width: 45%;
+       height: 88%;
+       margin-top: 6px;
+       border-radius: 5px;
+}
+#content > #playVideos > .listVide > .itemVideoSuggested > .bios {
+       height: 100%;
+}
+#content > #playVideos > .listVide > .itemVideoSuggested > .bios > .tgNameVideo {
+       font-size: 18px;
+       display: block;
+       margin-top: 20px;
+}
+#content > #playVideos > .listVide > .itemVideoSuggested > .bios > .nameCHanel {
+       font-size: 14px;
+       color: #8f8f8f;
+}
+
+
+ #progresscontainer {
+        width: 99%;
+        background-color: #939393;
+        height: 5px;
+        position: relative;
+        margin: -9px auto 0;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: 0.2s;
+ }
+
+ #progressbar {
+        width: 0;
+        height: 100%;
+        background-color: #ff0000;
+ }
+  #progresscontainer:hover {
+       cursor: pointer;
+       height: 10px;
+       margin: -14px auto 0;
+       transition: 0.2s;
+  }
