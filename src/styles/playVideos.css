@@ -41,13 +41,6 @@
 #content > #playVideos > .playVide > #theVideo > video {
        height: 100%;
 }
-#content > #playVideos > .playVide > #theVideo > video::-webkit-media-controls-volume-slider {
-       background-color: red;
-       width: 50%;
-}
-#content > #playVideos > .playVide > #theVideo > video::-webkit-media-controls-panel {
-       background-color: rgba(75, 75, 75, 0.377);
-}
 #content > #playVideos > .playVide > #theVideo > #clickPlayAndPaus {
        display: block;
        width: 50px;
@@ -71,7 +64,19 @@
        border-radius: 5px;
        cursor: pointer;
 }
-
+#content > #playVideos > .playVide > #theVideo > #vlum {
+       width: 40px;
+       height: 40px;
+       position: relative;
+       margin: -55px 10px;
+       background: url(../../img/nightModeIcons/vlumNt.png) no-repeat center;
+       background-size: 70%;
+       cursor: pointer;
+}
+#content > #playVideos > .playVide > #theVideo > #vlum.vlumPused {
+       background: url(../../img/nightModeIcons/vlumPaus.png) no-repeat center;
+       background-size: 70%;
+}
 
 #content > #playVideos > .listVide {
        width: 25%;

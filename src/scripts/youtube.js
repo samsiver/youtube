@@ -251,3 +251,17 @@ progresscontainer.onclick = function(e){
        const newTime = mohasebeTime * vid3.duration;
        vid3.currentTime = newTime;
 }
+
+var vlumClick = false;
+vlum.onclick = function(){
+       if(vlumClick == false){
+              vlumClick = true;
+              vid3.volume = 0;
+              vlum.className = "vlumPused";
+       }
+       else {
+              vlumClick = false;
+              vid3.volume = 0.9;
+              vlum.className = "";
+       }
+}
